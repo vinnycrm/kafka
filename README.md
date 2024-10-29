@@ -16,7 +16,7 @@ docker run --name my-kafka -p 9092:9092 apache/kafka:3.8.0
 ```
 
 3. **Create a Topic in Kafka**:  
-    Use local kafka client for connecting to kafka server `bin/kafka-topics.sh --create --topic quickstart-topic --bootstrap-server localhost:9092`, To download the Kafka client 3.8.0 click the [Link](https://dlcdn.apache.org/kafka/3.8.0/kafka_2.13-3.8.0.tgz)
+    Use local kafka client for connecting to kafka server `bin/kafka-topics.sh --create --topic quickstart-topic --bootstrap-server localhost:9092`, To download the Kafka client 3.8.0 click the [Link](https://dlcdn.apache.org/kafka/3.8.0/kafka_2.13-3.8.0.tgz) then extract and start using the client.
 
 ```sh
 bin/kafka-topics.sh --create --topic quickstart-topic --bootstrap-server localhost:9092
